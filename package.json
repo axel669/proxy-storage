@@ -1,0 +1,31 @@
+{
+  "name": "@axel669/proxy-storage",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axel669/proxy-storage.git"
+  },
+  "keywords": [
+    "storage"
+  ],
+  "author": "Axel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axel669/proxy-storage/issues"
+  },
+  "homepage": "https://github.com/axel669/proxy-storage#readme",
+  "devDependencies": {
+    "rollup": "^1.12.3"
+  },
+  "files": [
+    "index.js",
+    "/esm",
+    "/standalone"
+  ]
+}
