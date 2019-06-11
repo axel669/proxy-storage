@@ -15,6 +15,7 @@ const storageProxy = storage => new Proxy(
         },
         set(source, prop, value) {
             source.setItem(prop, JSON.stringify(value))
+            return true
         },
         deleteProperty(source, prop) {
             source.removeItem(prop)
